@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\somas\\source\\repos\\MVCApp\\MVCApp\\MVCApp.csproj": {}
+    "C:\\Users\\Arief\\Source\\Repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\somas\\source\\repos\\MVCApp\\MVCApp\\MVCApp.csproj": {
+    "C:\\Users\\Arief\\Source\\Repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\somas\\source\\repos\\MVCApp\\MVCApp\\MVCApp.csproj",
+        "projectUniqueName": "C:\\Users\\Arief\\Source\\Repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj",
         "projectName": "MVCApp",
-        "projectPath": "C:\\Users\\somas\\source\\repos\\MVCApp\\MVCApp\\MVCApp.csproj",
-        "packagesPath": "C:\\Users\\somas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\somas\\source\\repos\\MVCApp\\MVCApp\\obj\\",
+        "projectPath": "C:\\Users\\Arief\\Source\\Repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj",
+        "packagesPath": "C:\\Users\\Arief\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Arief\\Source\\Repos\\mid-term-exam-Kurayami7\\MVCApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\somas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arief\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,38 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

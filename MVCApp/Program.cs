@@ -1,9 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using MVCApp.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+var connectionString = builder.Configuration.GetConnectionString("MusicConnection");
+builder.Services.AddDbContext<HockeydbContext>(options => options.UseMySQL(connectionString));
+
 
 var app = builder.Build();
+var database = new HockeydbContext();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

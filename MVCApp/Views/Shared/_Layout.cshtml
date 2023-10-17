@@ -25,6 +25,11 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Players" asp-action="Index">Hockey Time</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -46,4 +51,42 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+<style>
+    body {
+        background-color: #1A1A1A;
+        color: #FFFFFF;
+    }
+
+    .header {
+        background-color: whitesmoke;
+        padding-left: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .display-4 {
+        font-weight: 650;
+    }
+
+    .song-card {
+        background-color: #333333;
+        color: whitesmoke;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    tr {
+        color: whitesmoke;
+    }
+
+    .song-card h4 {
+        color: #1DB954;
+    }
+
+    .btn-primary {
+        background-color: #1DB954;
+        border: none;
+    }
 </html>
