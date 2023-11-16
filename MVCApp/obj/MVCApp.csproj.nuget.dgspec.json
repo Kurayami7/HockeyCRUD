@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arief\\Source\\Repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj": {}
+    "C:\\Users\\Arief\\source\\repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arief\\Source\\Repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj": {
+    "C:\\Users\\Arief\\source\\repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arief\\Source\\Repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj",
+        "projectUniqueName": "C:\\Users\\Arief\\source\\repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj",
         "projectName": "MVCApp",
-        "projectPath": "C:\\Users\\Arief\\Source\\Repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj",
+        "projectPath": "C:\\Users\\Arief\\source\\repos\\mid-term-exam-Kurayami7\\MVCApp\\MVCApp.csproj",
         "packagesPath": "C:\\Users\\Arief\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arief\\Source\\Repos\\mid-term-exam-Kurayami7\\MVCApp\\obj\\",
+        "outputPath": "C:\\Users\\Arief\\source\\repos\\mid-term-exam-Kurayami7\\MVCApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arief\\AppData\\Roaming\\NuGet\\NuGet.Config",
