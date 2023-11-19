@@ -1,7 +1,6 @@
 no# MVCApp
 
 
-      - movie_image must contain a URL to any image online. Make sure the URL you use ends with a ".jpg" or ".png" extensions.
     - **Hockey Database**
         - Create a database named *hockeydb*
         - Create a table named *players* with columns: player_id, player_name, dob, matches,image_url, jersey_number
