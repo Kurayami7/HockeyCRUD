@@ -1,9 +1,6 @@
-# MVCApp
+no# MVCApp
 
-1. Create one of the following databases based on what is assigned to you by your instructor:
-   - **Movie Theatre Database**
-      - Create a *Movie Theatre* database
-      - Create a table named *show_timings* with columns: show_id, movie_name, start_time, movie_image, duration, screen_number.
+
       - movie_image must contain a URL to any image online. Make sure the URL you use ends with a ".jpg" or ".png" extensions.
     - **Hockey Database**
         - Create a database named *hockeydb*
