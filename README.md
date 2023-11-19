@@ -9,8 +9,7 @@
         - Create a database named *hockeydb*
         - Create a table named *players* with columns: player_id, player_name, dob, matches,image_url, jersey_number
         - image_url must contain a URL to any image online. Make sure the URL you use ends with a ".jpg" or ".png" extensions.
-          
-2. In the MVC application you cloned, scaffold the database you created above.
+
    
    - Resource: https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework-core-scaffold-example.html
    - Resource: https://github.com/TheCodingGrew/Week-6--Manual/blob/main/README.md
