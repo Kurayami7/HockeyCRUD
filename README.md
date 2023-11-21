@@ -7,4 +7,4 @@ Create controller and views for the model you scaffolded.
      
 ## Scaffolding
 
-##
+## Connecting to MySQL
