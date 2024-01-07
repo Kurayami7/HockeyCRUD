@@ -9,3 +9,4 @@ Create controller and views for the model you scaffold using Visual Studio (look
 After you create your project successfully, right click the controller folder and choose 'add scaffolded item'.
 
 ## Connecting to MySQL
+Scaffold-DbContext "server=127.0.0.1;uid=root;database=[DatabaseNameWithoutSquareBrackets];port=[portNoWithoutBrackets]”MySql.EntityFrameworkCore -OutputDir Models -f
