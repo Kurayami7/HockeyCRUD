@@ -12,4 +12,6 @@ After you create your project successfully, right click the controller folder an
 Scaffold-DbContext "server=127.0.0.1;uid=root;database=[DatabaseNameWithoutSquareBrackets];port=[portNoWithoutBrackets]”MySql.EntityFrameworkCore -OutputDir Models -f
 
 ## Video Demo:
-Coming Soon
+
+https://github.com/Kurayami7/HockeyCRUD/assets/124408792/4478115d-dab0-4f7d-86bf-219dc75a4864
+
